@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Explor Jogja</title>
+    <link rel="stylesheet" href="css/kontak.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Explor Jogja</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wisata.html">Wisata</a>
+            <a href="favorite.html">Favorite</a>
+            <a href="detail.html">Detail</a>
+            <a class="active" href="kontak.html">Kontak</a>
+        </nav>
+
+        <button id="loginBtn" class="login-btn">Login</button>
+    </header>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-box">
+
+        <div class="contact-title">
+            <h1>Kontak & Kritik Saran</h1>
+            <p>Kirimkan pesanmu kepada kami. Kami akan membacanya!</p>
+        </div>
+
+        <form id="contactForm">
+            <input type="text" id="nama" placeholder="Nama lengkap" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="pesan" placeholder="Tulis pesan atau saran..." required></textarea>
+
+            <button type="submit">Kirim</button>
+
+            <p id="statusText"></p>
+        </form>
+
+    </section>
+
+    <script src="js/kontak.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite - Explor Jogja</title>
+    <link rel="stylesheet" href="css/favorite.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Explor Jogja</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wisata.html">Wisata</a>
+            <a class="active" href="favorite.html">Favorite</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="admin-login.html">Admin</a>
+        </nav>
+
+        <button class="login-btn" id="loginBtn">Login</button>
+    </header>
+
+    <!-- FAVORITE SECTION -->
+    <section class="favorite-box">
+        <h1>Favorite Saya</h1>
+        <p class="sub">Tempat wisata yang kamu simpan akan muncul di sini.</p>
+
+        <div id="favContainer" class="fav-grid">
+            <!-- Card favorite akan muncul lewat JS -->
+        </div>
+
+        <p id="emptyText" class="empty-msg">Belum ada favorite yang ditambahkan.</p>
+    </section>
+
+    <script src="js/wisata-data.js"></script>
+    <script src="js/favorite.js"></script>
+</body>
+</html>

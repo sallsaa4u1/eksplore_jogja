@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata - Explor Jogja</title>
+    <link rel="stylesheet" href="css/wisata.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Explor Jogja</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="active" href="wisata.html">Wisata</a>
+            <a href="favorite.html">Favorite</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="admin-login.html">Admin</a>
+        </nav>
+
+        <button id="loginBtn" class="login-btn">Login</button>
+    </header>
+
+    <!-- WISATA SECTION -->
+    <section class="wisata-section">
+
+        <div class="top-bar">
+            <input type="text" id="searchInput" placeholder="Cari wisata…">
+            <select id="categorySelect">
+                <option value="Semua">Semua</option>
+                <option value="Pantai">Pantai</option>
+                <option value="Budaya">Budaya</option>
+                <option value="Rekreasi">Rekreasi</option>
+            </select>
+        </div>
+
+        <div id="cardContainer" class="card-container"></div>
+
+    </section>
+
+    <script src="js/wisata.js"></script>
+</body>
+</html>

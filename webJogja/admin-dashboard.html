@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin - Explor Jogja</title>
+    <link rel="stylesheet" href="../css/admin-dashboard.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Admin Panel</div>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </header>
+
+    <section class="dashboard">
+
+        <h2>Kelola Data Wisata</h2>
+
+        <!-- FORM TAMBAH / EDIT -->
+        <form id="wisataForm">
+            <input type="hidden" id="editId">
+
+            <input type="text" id="nama" placeholder="Nama wisata" required>
+            <input type="text" id="lokasi" placeholder="Lokasi" required>
+
+            <select id="kategori" required>
+                <option value="">Pilih kategori</option>
+                <option value="Pantai">Pantai</option>
+                <option value="Budaya">Budaya</option>
+                <option value="Rekreasi">Rekreasi</option>
+            </select>
+
+            <textarea id="deskripsi" placeholder="Deskripsi..." required></textarea>
+            <input type="text" id="gambar" placeholder="URL gambar / path gambar" required>
+
+            <button type="submit" id="submitBtn">Tambah Wisata</button>
+            <p id="statusText"></p>
+        </form>
+
+        <!-- TABEL LIST WISATA -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Kategori</th>
+                    <th>Lokasi</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody id="dataTable"></tbody>
+        </table>
+
+    </section>
+
+    <script src="../js/admin-dashboard.js"></script>
+</body>
+</html>

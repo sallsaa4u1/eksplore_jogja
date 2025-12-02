@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background: #e9f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 70px;
+    width: 100%;
+    background: #0b4fa3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar nav .active {
+    background: white;
+    padding: 6px 15px;
+    border-radius: 8px;
+    color: #0b4fa3;
+}
+
+/* Login Button */
+.login-btn {
+    background: white;
+    color: #0b4fa3;
+    font-weight: bold;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* CONTACT BOX */
+.contact-box {
+    margin: 50px auto;
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #00000025;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-title h1 {
+    margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#contactForm button {
+    width: 100%;
+    background: #ffc43b;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#statusText {
+    margin-top: 10px;
+    text-align: center;
+}

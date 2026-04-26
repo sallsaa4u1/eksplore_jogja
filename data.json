@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "judul": "Website eksplore jogja",
+    "deskripsi": "Membuat website sederhana menggunakan HTML dan CSS"
+  },
+  {
+    "id": 2,
+    "judul": "CRUD React",
+    "deskripsi": "Membuat aplikasi CRUD menggunakan React"
+  },
+  {
+    "id": 3,
+    "judul": "Portfolio React",
+    "deskripsi": "Membuat website portfolio menggunakan React dan Bootstrap"
+  },
+  {
+    "id": 4,
+    "judul": "Regresi",
+    "deskripsi": "Memprediksi nilai suatu variabel dependen berdasarkan nilai dari satu atau lebih variabel independen. menemukan pola hubungan dan menggunakannya untuk memprediksi (misal penjualan) di masa depan."
+  }
+]
